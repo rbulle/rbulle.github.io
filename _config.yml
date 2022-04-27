@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username: rbulle 
 
 # Build settings
-theme: ed. 
+theme: "ed." 
 plugins:
   - jekyll-feed
 
