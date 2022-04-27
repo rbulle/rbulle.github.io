@@ -9,5 +9,6 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
     echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc && \
     echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc && \
     echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc && \
-    gem install jekyll && \
-    gem install bundler
+    gem install jekyll bundler && \ 
+    gem install jekyll-timeago -v 0.13.1 && \
+    gem install minima -v 2.5
