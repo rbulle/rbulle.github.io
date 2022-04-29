@@ -17,24 +17,9 @@ h3 {
 h1 {
   color: $main;
   font-size: 2.5em;
-  a,
-  a:visited {
-    text-decoration: none;
-    color: $main;
-  }
 }
 h2 {
   font-size: 2em;
-}
-a,
-a:visited {
-  color: $link-color;
-  text-decoration: underline;
-  font-weight: bold;
-}
-a:hover {
-  color: $link-hover-color;
-  text-decoration: underline;
 }
 header {
   background-image: url("../images/mont_blanc_small_3.jpg");
@@ -110,5 +95,7 @@ aside {
 }
 footer {
   text-align: right;
+  font-size: 0.8em;
+  color: $footer-font-color;
   padding: 0px;
 }

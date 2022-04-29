@@ -8,7 +8,27 @@ $heading-font: 'Muli', sans-serif;
 $heading-font-color: #125469;
 $light: #e7edf4;
 $header: #254065;
+$footer-font-color: #8ea8c3;
 
+a {
+  color: $link-color;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:link {
+  color: $link-color;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: $link-color;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: $link-hover-color;
+  text-decoration: none;
+}
 *,
 *::before,
 *::after {

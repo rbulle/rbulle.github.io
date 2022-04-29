@@ -26,15 +26,20 @@ h1 {
 h2 {
   font-size: 2em;
 }
-a,
-a:visited {
+a:link {
+  text-decoration: none;
   color: $link-color;
-  text-decoration: underline;
+  font-weight: bold;
+}  
+a:visited {
+  text-decoration: none;
+  color: $link-color;
   font-weight: bold;
 }
 a:hover {
+  text-decoration: none;
   color: $link-hover-color;
-  text-decoration: underline;
+  font-weight: bold;
 }
 header {
   background: $header;
@@ -86,7 +91,7 @@ aside {
           display: block;
           padding: 15px;
           font-family: 'Muli', sans-serif;
-          line-height: 20px;
+          /* line-height: 20px; */
           margin-bottom: -1px;
           box-shadow: 0;
           &:hover,
@@ -107,6 +112,7 @@ aside {
 }
 footer {
   text-align: center;
+  font-size: 0.5em;
   padding: 40px;
 }
 .wrapper .icon{
