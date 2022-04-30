@@ -4,28 +4,14 @@ title: Contact
 permalink: /contact/
 ---
 
-Contact content goes here.
-<div class="wrapper">
-  <!-- <a href="#" class="icon facebook">
-    <div class="tooltip">Facebook</div>
-    <span><i class="fab fa-facebook-f"></i></span>
+My e-mail is <img src="../images/email.png" height="25">.
+<p>My social networks:</p>
+<p class="icons">
+  <a style="display:inline-block" href="https://github.com/rbulle" target=_blank>
+    <i class="fab fa-github" aria-hidden="true"></i>
   </a>
-  <a href="#" class="icon twitter">
-    <div class="tooltip">Twitter</div>
-    <span><i class="fab fa-twitter"></i></span>
+  <a style="display:inline-block" href="https://www.linkedin.com/in/rapha%C3%ABl-bulle-50b373148/" target=_blank>
+    <i class="fab fa-linkedin" aria-hidden="true"></i>
   </a>
-  <a href="#" class="icon instagram">
-    <div class="tooltip">Instagram</div>
-    <span><i class="fab fa-instagram"></i></span>
-  </a>
-  <a href="#" class="icon youtube">
-    <div class="tooltip">Youtube</div>
-    <span><i class="fab fa-youtube"></i></span>
-  </a> -->
-  <a href="#" class="icon github">
-    <div class="tooltip"></div>
-    <span><i class="fab fa-github"></i></span>
-  </a>
-</div>
 
-My e-mail is <b><label class="unselectable">rbulle@tutanota.com</label></b>.
+</p>
