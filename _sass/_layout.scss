@@ -1,10 +1,18 @@
 body {
   margin: 0;
+  padding: 0;
+  padding-bottom: 50px; /* To avoid footer covering bottom of body */
+  height: 100%;
   color: $font-color;
   font-family: $font-style;
   font-size: 1.1em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-row-gap: 10px;
 }
 h1,
 h2,
@@ -29,7 +37,7 @@ header {
   padding: 0px 15px;
   text-align: center;
   margin: 50px 0 0;
-  height: 50vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,13 +102,12 @@ aside {
   }
 }
 footer {
-  text-align: right;
-  font-size: 0.8em;
-  color: $footer-font-color;
-  padding: 0px;
-}
-.icons {
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
   text-align: center;
-  font-size: 5em;
-  line-height: 10px;
+  font-size: 0.7em;
+  color: $footer-font-color;
+  background: #FFFFFF;
 }
