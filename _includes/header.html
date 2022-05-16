@@ -1,14 +1,41 @@
 <aside>
     <div class="container">
+        <name><a href="{{site.url}}">Raphaël Bulle</a></name>
+        <contacts>
+          <span title="rbulle@tutanota.com">
+            <a href="mailto:rbulle@tutanota.com">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </a>
+          <span title="Github">
+            <a href="https://github.com/rbulle" target=_blank>
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </span>
+          <span title="Orcid">
+            <a href="https://orcid.org/0000-0002-6239-125X" target=_blank>
+              <i class="fab fa-orcid" aria-hidden="true"></i>
+            </a>
+          </span>
+          <span title="ResearchGate">
+            <a href="https://www.researchgate.net/profile/Raphael-Bulle" target=_blank>
+              <i class="fab fa-researchgate" aria-hidden="true"></i>
+            </a>
+          </span>
+          <span title="LinkedIn">
+            <a href="https://www.linkedin.com/in/rapha%C3%ABl-bulle-50b373148/" target=_blank>
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </span>
+        </contacts><br />
         <nav>
             <ul>
-	    <li><a href="{{ site.url }}"><i class="fa fa-home"></i></a></li>
-{% for page in site.pages %} {% if page.title %}
-<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% for page in site.pages %} {% if page.title %}
+                <li>
+<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </li>
 {% endif %} {% endfor %}
             </ul>
             </li>
-            </ul>
         </nav>
     </div>
 </aside>

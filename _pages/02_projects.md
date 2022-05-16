@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## Here you can find some of my works.
+## Projects 
 
 ### FEniCSx-Error-Estimation
 
