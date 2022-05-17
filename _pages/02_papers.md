@@ -17,7 +17,7 @@ permalink: /papers/
   </div>
   <div><large>2021</large></div>
   <div><large>Hierarchical a posteriori error estimation of Bank-Weiser type in the FEniCS Project</large><br />
-  R. B., Jack S. Hale, ALexei Lozinski, Stéphane P. A. Bordas, Franz Chouly,<br />
+  R. B., Jack S. Hale, Alexei Lozinski, Stéphane P. A. Bordas, Franz Chouly,<br />
   submitted to <i>Computers & Mathematics with Applications</i> on Nov. 2021,<br />
   pre-print version <a href="https://doi.org/10.48550/arXiv.2102.04360" target=_blank>here</a>. 
   </div>
@@ -34,7 +34,7 @@ permalink: /papers/
   </div>
   <div><large>2020</large></div>
   <div><large>Removing the saturation assumption in Bank-Weiser error estimator analysis in dimension three</large><br />
-  R. B., Franz Chouly, Jack S. Hale, ALexei Lozinski,<br />
+  R. B., Franz Chouly, Jack S. Hale, Alexei Lozinski,<br />
   <i>Applied Mathematics Letters</i>, Volume 107, 2020, 106429, ISSN 0893-9659,<br />
   <a href="https://doi.org/10.1016/j.aml.2020.106429" target=_blank>https://doi.org/10.1016/j.aml.2020.106429</a>. 
   </div>
