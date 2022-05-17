@@ -10,13 +10,14 @@ body
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   background: $background;
-  min-width: 500px;
+  min-width: 200px;
 }
 .wrapper
 {
   display: grid;
   grid-template-columns: 1fr 10fr;
   grid-row-gap: 10px;
+  column-gap: 10px;
 }
 h1,
 h2,
