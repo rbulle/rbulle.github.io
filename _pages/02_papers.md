@@ -12,7 +12,7 @@ permalink: /papers/
   <div><large>2022</large></div>
   <div><large>An a posteriori error estimator for the spectral fractional power of the Laplacian</large><br />
   R. B., Olga Barrera, Stéphane P. A. Bordas, Franz Chouly, Jack S. Hale,<br />
-  submitted to <i>Computer Methods in Applied Mechanics and Engineering</i>,<br />
+  submitted to <i>Computer Methods in Applied Mechanics and Engineering</i>,<br /> on Feb. 2022,
   pre-print version <a href="https://doi.org/10.48550/arXiv.2202.05810" target=_blank>here</a>.
   </div>
   <div><large>2021</large></div>
