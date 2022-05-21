@@ -4,9 +4,9 @@ title: Papers
 permalink: /papers/
 ---
 
-## Scientific papers
+# Scientific papers
 
-### Submitted
+## Submitted
 
 <div class="wrapper">
   <div><large>2022</large></div>
@@ -23,7 +23,7 @@ permalink: /papers/
   </div>
 </div>
 
-### Published 
+## Published 
 
 <div class="wrapper">
   <div><large>2021</large></div>

@@ -4,7 +4,7 @@ title: Education
 permalink: /education/
 ---
 
-## Education
+# Education
 
 <div class="wrapper">
   <div><large>2022</large></div>
