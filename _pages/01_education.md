@@ -35,11 +35,11 @@ permalink: /education/
   </div>
   <div><large>2016</large></div>
   <div><large>Agrégation externe de Mathématiques</large>
-  <p>I successfully passed the French competitive exam "Agrégation externe de Mathématiques" to become a Maths teacher in France.<br /> More information <a href="https://agreg.org/" target=_blank>here</a>.</p>
+  <p>I successfully passed the highschool Maths instruction French competitive exam "Agrégation externe de Mathématiques".<br /> More information <a href="https://agreg.org/" target=_blank>here</a>.</p>
   </div>
   <div><large>2014</large></div>
   <div><large> CAPES externe de Mathématiques</large>
-  <p>I successfully passed the French competitive exam "CAPES externe de Mathématiques" to become a Maths teacher in France.<br /> More information <a href="https://capes-math.org/" target=_blank>here</a>.</p>
+  <p>I successfully passed the highschool Maths instruction French competitive exam "CAPES externe de Mathématiques".<br /> More information <a href="https://capes-math.org/" target=_blank>here</a>.</p>
   </div>
   <div><large>2013</large></div>
   <div><large>Bachelor's degree</large>

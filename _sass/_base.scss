@@ -52,5 +52,12 @@ large {
     user-select: none;
 }
 img {
-    vertical-align:middle;
+}
+.rounded {
+    clear: both;
+    display: block;
+    margin: auto;
+    border-radius:50%;
+    width:40%;
+    text-align:center;
 }
