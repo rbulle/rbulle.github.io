@@ -27,7 +27,9 @@ This estimator has several advantages:
 To download and get started with FEniCSx-EE, please follow the instructions from the README file on the <a href="https://github.com/jhale/fenicsx-error-estimation" target=_blank>github repository</a>.
 Once this is done, you are good to go and can write your FEniCSx script e.g. in the `demo/` directory.
 
+<!---
 Let us review a simple example of adaptive refinement steered by the
 Bank-Weiser estimator.
 To do so, we consider a diffusion equation on a L-shaped domain.
 Let $\Omega$ be a 2-dimensional L-shaped polygonal domain.
+-->
