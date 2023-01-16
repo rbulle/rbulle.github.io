@@ -15,17 +15,18 @@ permalink: /papers/
   submitted to <i>Computer Methods in Applied Mechanics and Engineering</i> on Feb. 2022,<br />
   pre-print version <a href="https://doi.org/10.48550/arXiv.2202.05810" target=_blank>here</a>.
   </div>
-  <div><large>2021</large></div>
-  <div><large>Hierarchical a posteriori error estimation of Bank-Weiser type in the FEniCS Project</large><br />
-  R. B., Jack S. Hale, Alexei Lozinski, Stéphane P. A. Bordas, Franz Chouly,<br />
-  submitted to <i>Computers & Mathematics with Applications</i> on Nov. 2021,<br />
-  pre-print version <a href="https://doi.org/10.48550/arXiv.2102.04360" target=_blank>here</a>. 
-  </div>
+
 </div>
 
 ## Published 
 
 <div class="wrapper">
+  <div><large>2023</large></div>
+  <div><large>Hierarchical a posteriori error estimation of Bank-Weiser type in the FEniCS Project</large><br />
+  R. B., Jack S. Hale, Alexei Lozinski, Stéphane P. A. Bordas, Franz Chouly,<br />
+  <i>Computers & Mathematics with Applications</i>, Volume 131, 2023, Pages 103-123, ISSN 0898-1221 <br />
+  <a href="https://doi.org/10.1016/j.camwa.2022.11.009" target=_blank>https://doi.org/10.1016/j.camwa.2022.11.009</a>. 
+  </div>
   <div><large>2021</large></div>
   <div><large>The Human Meniscus Behaves as a Functionally Graded Fractional Porous Medium under Confined Compression Conditions</large><br />
   R. B., Gioacchino Alotta, Gregorio Marchiori, Matteo Berni, Nicola F. Lopomo, Stefano Zaffagnini, Stéphane P. A. Bordas, Olga Barrera,<br />
