@@ -31,6 +31,10 @@ include: ['_pages']
 kramdown:
   input: GFM  
 
+# Emojis
+plugins:
+  - jemoji
+
 # Build settings
 # theme: "minima" 
 # plugins:
