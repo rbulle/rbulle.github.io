@@ -6,9 +6,11 @@ usemathjax: true
 ---
 <script>
 MathJax = {
-  tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]},
-  tex: { equationNumbers: { autoNumber: "AMS" } }
+  tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
 };
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
