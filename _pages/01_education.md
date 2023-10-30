@@ -11,7 +11,7 @@ permalink: /education/
   <div><large>Doctoral degree</large>
   <p> I received my doctoral degree in <b> Engineering Science </b> and <b> Applied Mathematics </b> from <a href="https://wwwen.uni.lu/" target=_blank>University of Luxembourg</a> (Luxembourg) and <a href="https://www.ubfc.fr/en/" target=_blank>Université de Bourgogne Franche-Comté</a> (France) respectively.</p>
 
-  <p> My thesis dissertation is available <a href="https://www.researchgate.net/publication/360199733_A_posteriori_error_estimation_for_finite_element_approximations_of_fractional_Laplacian_problems_and_applications_to_poro-elasticity" target=_blank>here</a>.</p>
+  <p> My thesis dissertation is available <a href="https://hdl.handle.net/10993/50928" target=_blank>here</a>.</p>
 
   <p>My thesis supervisors:<br />
 
