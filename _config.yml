@@ -26,7 +26,11 @@ url: "https://rbulle.github.io" # the base hostname & protocol for your site, e.
 github_username: rbulle 
 
 sass:
+  style: compressed
   sass_dir: _sass
+  load_paths:
+    - node_modules
+  sourcemap: always
 include: ['_pages']
 kramdown:
   input: GFM  
