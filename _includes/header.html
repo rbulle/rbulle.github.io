@@ -34,16 +34,16 @@
 		          <i class="fab fa-mastodon" aria-hidden="true"></i>
             </a>
           </span>
-            <span class="email"><c>firstname.lastname@inria</c><b>.example</b><c>.fr</c>
+            <span class="email"><c>firstname.lastname@inria.fr</c>
           </span>
         </contacts><br/>
         <nav>
             <ul>
                 {% for page in site.pages %} {% if page.title %}
                 <li>
-<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
-{% endif %} {% endfor %}
+                {% endif %} {% endfor %}
             </ul>
             </li>
         </nav>
