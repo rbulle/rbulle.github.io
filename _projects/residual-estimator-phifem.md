@@ -5,6 +5,14 @@ categories: jekyll update
 usemathjax: true
 ---
 
+<script>
+MathJax = {
+  tex: {inlineMath: [['$', '$'], ['\\(', '\\)']],
+        tags: 'ams'}
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 ## Residual-based a posteriori error estimates with boundary correction for <span>&phi;</span>-FEM
 
 ### The <span>&phi;</span>-Finite Element Method

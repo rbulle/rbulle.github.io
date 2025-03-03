@@ -5,6 +5,14 @@ categories: jekyll update
 usemathjax: true
 ---
 
+<script>
+MathJax = {
+  tex: {inlineMath: [['$', '$'], ['\\(', '\\)']],
+        tags: 'ams'}
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 ## Multi-mesh discretization of the spectral fractional Laplacian
 
 On September 2023 I have been invited by <a href="https://web.mat.bham.ac.uk/A.Bespalov/" target=_blank>Dr. Alex Bespalov</a> at University of Birmingham to work on a multi-mesh algorithm to discretize and solve spectral fractional Laplacian equations numerically.
