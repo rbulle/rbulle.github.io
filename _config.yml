@@ -35,6 +35,16 @@ include: ['_pages']
 kramdown:
   input: GFM  
 
+collections:
+  projects:
+    output: true
+    order:
+      - residual-estimator-phifem.md
+      - gradient-reconstruction.md
+      - multimesh-fractional.md
+      - a-posteriori-fractional-laplacian.md
+      - FEniCSx-error-estimation.md
+
 # Emojis
 plugins:
   - jemoji
