@@ -5,13 +5,14 @@ categories: jekyll update
 usemathjax: true
 ---
 
-<script>
-MathJax = {
-  tex: {inlineMath: [['$', '$'], ['\\(', '\\)']],
-        tags: 'ams'}
-};
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
 </script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 ## A posteriori error estimation for the spectral fractional Laplacian
 
