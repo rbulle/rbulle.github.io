@@ -6,18 +6,15 @@ permalink: /research/
 
 # Scientific contributions
 
-## In preparation
-
-<div class="wrapper">
-  <div><large>2025-</large></div>
-  <div><large>A multimesh adaptive rational approximation scheme for the spectral fractional Laplacian</large><br />
-  Alex Bespalov, R. B.<br />
-  </div>
-</div>
-
 ## Submitted
 
 <div class="wrapper">
+  <div><large>2025</large></div>
+  <div><large>A multimesh adaptive rational approximation scheme for the spectral fractional Laplacian</large><br />
+  Alex Bespalov, R. B.<br />
+  <a href="https://arxiv.org/abs/2504.03408" target=_blank>https://arxiv.org/abs/2504.03408</a> (preprint).
+  </div>
+
   <div><large>2025</large></div>
   <div><large>Residual-based a posteriori error estimates with boundary correction for <span>&#966;</span>-FEM</large><br />
   Roland Becker, R. B., Michel Duprez, Vanessa Lleras,<br />
