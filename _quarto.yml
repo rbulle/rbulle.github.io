@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  
+
 execute:
   freeze: auto
 
@@ -14,7 +14,7 @@ website:
       - href: index.qmd
         text: Home
       - research.qmd
-      - people.qmd
+      - supervision.qmd
       - href: /documents/cv_en.pdf
         text: "CV (en)"
       - href: /documents/cv_fr.pdf
