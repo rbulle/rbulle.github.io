@@ -9,15 +9,15 @@ title: "Teaching"
 
 ### 2018
 
-- **Mathematics for engineers (exercises, 30h ETD).** 1st year of Engineering bachelor (50-60 students).
+- **Mathematics for engineers (exercises, 30h ETD).** 1st year of Engineering bachelor (50-60 students).  
   Autumn semester, University of Luxembourg, Luxembourg, LUX.
 
 ### 2015
 
-- **Linear ODEs (lecture & exercises, 19h ETD).** 1st year of Biology bachelor (25-35 students).
+- **Linear ODEs (lecture & exercises, 19h ETD).** 1st year of Biology bachelor (25-35 students).  
   2nd Half of Autumn semester, Université de Franche-Comté, Besançon, FR.
 
 ### 2014
 
-- **Linear ODEs (exercises, 17h ETD).** 1st year of Biology bachelor (25-35 students).
+- **Linear ODEs (exercises, 17h ETD).** 1st year of Biology bachelor (25-35 students).  
   2nd Half of Autumn semester, Université de Franche-Comté, Besançon, FR.
