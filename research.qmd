@@ -47,8 +47,8 @@ for type_key, type_val in doctypes.items():
     type_df = df[df["type"] == type_key]
     if type_key=="UNDEFINED":
         for _, row in type_df.iterrows():
-            out += f"#### $\\bullet$ {row['title']}\n"
-            out += f"{row['authors']} | \n"
+            out += f"- *{row['title']}*</br>"
+            out += f"  {row['authors']} | \n"
             if row['doi']!="":
                 out += f"DOI: [{row['doi']}]({row['doi']}) | \n"
             out += f"[HAL]({row['link']})\n\n"
@@ -57,8 +57,8 @@ for type_key, type_val in doctypes.items():
             yr_df = type_df[type_df["year"] == year]
             out += f"### {year}\n\n"
             for _, row in yr_df.iterrows():
-                out += f"#### $\\bullet$ {row['title']}\n"
-                out += f"{row['authors']} | \n"
+                out += f"- *{row['title']}*</br>"
+                out += f"  {row['authors']} | \n"
                 if row['doi']!="":
                     out += f"DOI: [{row['doi']}]({row['doi']}) | \n"
                 out += f"[HAL]({row['link']})\n\n"

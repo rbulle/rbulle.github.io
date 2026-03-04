@@ -1,0 +1,40 @@
+project:
+  type: website
+execute:
+  freeze: auto
+
+
+website:
+  page-footer: |
+    This page is generated using [Quarto](https://quarto.org/) and is under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), unless otherwise stated.
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - research.qmd
+      - people.qmd
+      - href: /documents/cv_en.pdf
+        text: "CV (en)"
+      - href: /documents/cv_fr.pdf
+        text: "CV (fr)"
+    right:
+      - text: "{{< iconify simple-icons:researchgate >}}"
+        href: https://www.researchgate.net/profile/Raphael-Bulle
+      - text: "{{< iconify la:orcid >}}"
+        href: https://orcid.org/0000-0002-6239-125X
+      - text: "{{< iconify line-md:github >}}"
+        href:  https://github.com/rbulle
+      - text: "{{< iconify line-md:mastodon >}}"
+        href: https://mathstodon.xyz/@rbulle
+      - text: "{{< iconify line-md:linkedin >}}"
+        href: https://www.linkedin.com/in/raphael-bulle-60499a23a/
+
+format:
+  html:
+    theme:
+      light: [flatly, light-theme.scss]
+      dark: [darkly, dark-theme.scss]
+    css: styles.css
+    fontsize: 1.2em
+
+date: last-modified
