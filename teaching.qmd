@@ -1,0 +1,23 @@
+---
+title: "Teaching"
+---
+
+### 2024
+
+- **Numerical analysis for engineers (lecture).** 1st year of Engineering bachelor.  
+  Winter semester, Université Laval, Québec, CA.
+
+### 2018
+
+- **Mathematics for engineers (exercises).** 1st year of Engineering bachelor.
+  Autumn semester, University of Luxembourg, Luxembourg, LUX.
+
+### 2015
+
+- **Linear ODEs (lecture & exercises).** 1st year of Biology bachelor.
+  2nd Half of Autumn semester, Université de Franche-Comté, Besançon, FR.
+
+### 2014
+
+- **Linear ODEs (exercises).** 1st year of Biology bachelor.
+  2nd Half of Autumn semester, Université de Franche-Comté, Besançon, FR.

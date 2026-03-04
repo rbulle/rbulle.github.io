@@ -16,6 +16,7 @@ website:
         text: Home
       - research.qmd
       - supervision.qmd
+      - teaching.qmd
       - href: /documents/cv_en.pdf
         text: "CV (en)"
       - href: /documents/cv_fr.pdf
