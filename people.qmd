@@ -1,0 +1,15 @@
+---
+title: "People"
+---
+
+# Current
+
+- [**Louis Ducongé**](https://iecl.univ-lorraine.fr/membre-iecl/duconge-louis/). 6 months internship at MIMESIS (Centre Inria de l'Université de Lorraine, Strasbourg, FR) in 2025 followed by a PhD since October 2025.  
+  **Topic:** *Shape optimization applied to surgical stents manufacturing.*  
+  Co-supervised with [Dr. Stéphane Cotin](https://mimesis.inria.fr/members/stephane-cotin/), [Dr. Michel Duprez](https://mimesis.inria.fr/members/michel-duprez/) and [Pr. Yannick Privat](https://yannick-privat.perso.math.cnrs.fr/).
+
+# Former
+
+- [**Sarah Ait-Said**](https://www.linkedin.com/in/sarah-ait-said-831071206/). 6 months internship at Université Laval (Québec, QC) in 2024.  
+  **Topic:** *Gradient reconstruction for multi-material problems*.  
+  Co-supervised with [Pr. Jean Deteix](https://jean-deteix.fsg.ulaval.ca/).

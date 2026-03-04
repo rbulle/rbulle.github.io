@@ -1,0 +1,67 @@
+---
+title: "Research"
+---
+
+```{python}
+#| echo: false
+
+import requests
+import pandas as pd
+
+HAL_ID = "raphael-bulle"
+URL = f"https://api.archives-ouvertes.fr/search/?q=authIdHal_s:{HAL_ID}&wt=json&fl=title_s,authFullName_s,producedDateY_i,uri_s,docType_s,doiId_s"
+
+data = requests.get(URL).json()
+docs = data["response"]["docs"]
+
+pubs = []
+for d in docs:
+    if d.get("title_s")[0] == "FEniCS Error Estimation (FEniCS-EE)":
+        pubs.append({
+            "title": d.get("title_s", "Untitled")[0],
+            "year": 2021,
+            "link": d.get("uri_s", [""]),
+            "authors": ", ".join(d.get("authFullName_s", [])),
+            "type": d.get("docType_s", "unknown"),
+            "doi": d.get("doiId_s", ""),
+        })
+    else:
+        pubs.append({
+            "title": d.get("title_s", "Untitled")[0],
+            "year": d.get("producedDateY_i", ["?"]),
+            "link": d.get("uri_s", [""]),
+            "authors": ", ".join(d.get("authFullName_s", [])),
+            "type": d.get("docType_s", "unknown"),
+            "doi": d.get("doiId_s", ""),
+        })
+
+df = pd.DataFrame(pubs).sort_values("year", ascending=False)
+year_list = df["year"].tolist()
+df.head()
+from IPython.display import Markdown
+
+doctypes = {"UNDEFINED": "✍️ Preprints", "ART": "🗞️ Publications", "SOFTWARE": "💻 Softwares", "THESE": "🎓 Thesis", "REPORT": "📰 Reports"}
+out = ""
+for type_key, type_val in doctypes.items():
+    out += f"## {type_val}\n\n"
+    type_df = df[df["type"] == type_key]
+    if type_key=="UNDEFINED":
+        for _, row in type_df.iterrows():
+            out += f"#### $\\bullet$ {row['title']}\n"
+            out += f"{row['authors']} | \n"
+            if row['doi']!="":
+                out += f"DOI: [{row['doi']}]({row['doi']}) | \n"
+            out += f"[HAL]({row['link']})\n\n"
+    else:
+        for year in sorted(set(type_df["year"].tolist()), reverse=True):
+            yr_df = type_df[type_df["year"] == year]
+            out += f"### {year}\n\n"
+            for _, row in yr_df.iterrows():
+                out += f"#### $\\bullet$ {row['title']}\n"
+                out += f"{row['authors']} | \n"
+                if row['doi']!="":
+                    out += f"DOI: [{row['doi']}]({row['doi']}) | \n"
+                out += f"[HAL]({row['link']})\n\n"
+
+Markdown(out)
+```
