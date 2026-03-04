@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "supervision.html",
-    "href": "supervision.html",
-    "title": "Supervision",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Current\n\nLouis Ducongé. 6 months internship at MIMESIS (Centre Inria de l’Université de Lorraine, Strasbourg, FR) in 2025 followed by a PhD since October 2025.\nTopic: Shape optimization applied to surgical stents manufacturing.\nCo-supervised with Dr. Stéphane Cotin, Dr. Michel Duprez and Pr. Yannick Privat.\n\n\n\nFormer\n\nSarah Ait-Said. 6 months internship at Université Laval (Québec, QC) in 2024.\nTopic: Gradient reconstruction for multi-material problems.\nCo-supervised with Pr. Jean Deteix."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Raphaël Bulle",
-    "section": "",
-    "text": "Since October 2024, I am a post-doc researcher in the team-project MIMESIS at Centre Inria de l’Université de Lorraine, in Strasbourg 🥨 France.\nMy current work is about a posteriori error estimation and adaptive mesh refinement for the immersed boundary method called \\(\\varphi\\)-FEM. As a member of MIMESIS my work aims at providing numerical tools for biomecanics and biomedical simulations.\n\nMy research interests include:\n\n\n\n\nFEM a posteriori error estimation,\nimmersed boundary FEM,\nshape optimization,\n\n\n\n\ngradient reconstruction,\nfractional PDEs,\nbiomecanics."
+    "text": "2024\n\nNumerical analysis for engineers (lecture). 1st year of Engineering bachelor.\nWinter semester, Université Laval, Québec, CA.\n\n\n\n2018\n\nMathematics for engineers (exercises). 1st year of Engineering bachelor. Autumn semester, University of Luxembourg, Luxembourg, LUX.\n\n\n\n2015\n\nLinear ODEs (lecture & exercises). 1st year of Biology bachelor. 2nd Half of Autumn semester, Université de Franche-Comté, Besançon, FR.\n\n\n\n2014\n\nLinear ODEs (exercises). 1st year of Biology bachelor. 2nd Half of Autumn semester, Université de Franche-Comté, Besançon, FR."
   },
   {
     "objectID": "research.html",
@@ -54,5 +47,19 @@
     "title": "Research",
     "section": "",
     "text": "Image search, Match the fastener Raphaël Bulle, François Der Hovsepian, Francisco Nicolás, Jean-Christophe Sick | HAL"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Raphaël Bulle",
+    "section": "",
+    "text": "Since October 2024, I am a post-doc researcher in the team-project MIMESIS at Centre Inria de l’Université de Lorraine, in Strasbourg 🥨 France.\nMy current work is about a posteriori error estimation and adaptive mesh refinement for the immersed boundary method called \\(\\varphi\\)-FEM. As a member of MIMESIS my work aims at providing numerical tools for biomecanics and biomedical simulations.\n\nMy research interests include:\n\n\n\n\nFEM a posteriori error estimation,\nimmersed boundary FEM,\nshape optimization,\n\n\n\n\ngradient reconstruction,\nfractional PDEs,\nbiomecanics."
+  },
+  {
+    "objectID": "supervision.html",
+    "href": "supervision.html",
+    "title": "Supervision",
+    "section": "",
+    "text": "Current\n\nLouis Ducongé. 6 months internship at MIMESIS (Centre Inria de l’Université de Lorraine, Strasbourg, FR) in 2025 followed by a PhD since October 2025.\nTopic: Shape optimization applied to surgical stents manufacturing.\nCo-supervised with Dr. Stéphane Cotin, Dr. Michel Duprez and Pr. Yannick Privat.\n\n\n\nFormer\n\nSarah Ait-Said. 6 months internship at Université Laval (Québec, QC) in 2024.\nTopic: Gradient reconstruction for multi-material problems.\nCo-supervised with Pr. Jean Deteix."
   }
 ]
