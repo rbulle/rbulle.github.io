@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "2024\n\nNumerical analysis for engineers (lecture, 70h ETD). 1st year of Engineering bachelor (100-110 students).\nWinter semester, Université Laval, Québec, CA.\n\n\n\n2018\n\nMathematics for engineers (exercises, 30h ETD). 1st year of Engineering bachelor (50-60 students).\nAutumn semester, University of Luxembourg, Luxembourg, LUX.\n\n\n\n2015\n\nLinear ODEs (lecture & exercises, 19h ETD). 1st year of Biology bachelor (25-35 students).\n2nd Half of Autumn semester, Université de Franche-Comté, Besançon, FR.\n\n\n\n2014\n\nLinear ODEs (exercises, 17h ETD). 1st year of Biology bachelor (25-35 students).\n2nd Half of Autumn semester, Université de Franche-Comté, Besançon, FR."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "A penalized φ-FEM scheme for the Poisson Dirichlet problem Michel Duprez, Killian Vuillemot, Raphaël Bulle, Vanessa Lleras\nResidual-based a posteriori error estimates with boundary correction for Phi-FEM Roland Becker, Raphaël Bulle, Michel Duprez, Vanessa Lleras\nAn adaptive multimesh rational approximation scheme for the spectral fractional Laplacian Alex Bespalov, Raphaël Bulle | DOI: 10.48550/arXiv.2504.03408 | HAL\n\n\n\n\n\n\n\nAn a posteriori error estimator for the spectral fractional power of the Laplacian Raphaël Bulle, Olga Barrera, Stéphane P.A. Bordas, Franz Chouly, Jack S Hale | DOI: 10.1016/j.cma.2023.115943 | HAL\nHierarchical a posteriori error estimation of Bank-Weiser type in the FEniCS Project Raphaël Bulle, Jack S Hale, Alexei Lozinski, Stéphane P.A. Bordas, Franz Chouly | DOI: 10.1016/j.camwa.2022.11.009 | HAL\n\n\n\n\n\nThe Human Meniscus Behaves as a Functionally Graded Fractional Porous Medium under Confined Compression Conditions Raphaël Bulle, Gioacchino Alotta, Gregorio Marchiori, Matteo Berni, Nicola F. Lopomo, Stefano Zaffagnini, Stéphane P. A. Bordas, Olga Barrera | DOI: https://doi.org/10.3390/app11209405\n\n\n\n\n\nRemoving the saturation assumption in Bank-Weiser error estimator analysis in dimension three Raphaël Bulle, Franz Chouly, Jack S Hale, Alexei Lozinski | DOI: 10.1016/j.aml.2020.106429 | HAL\n\n\n\n\n\n\n\n\nphiFEM: a convenience package for using phiFEM with FEniCSx Raphael Bulle, Michel Duprez, Killian Vuillemot | DOI: 10.6084/m9.figshare.30373546.v1 | HAL\n\n\n\n\n\nFEniCS Error Estimation (FEniCS-EE) Raphaël Bulle, Jack Hale | DOI: 10.6084/m9.figshare.10732421 | HAL\n\n\n\n\n\n\n\n\nA posteriori error estimation for finite element approximations of fractional Laplacian problems and applications to poro-elasticity Raphaël Bulle\n\n\n\n\n\n\n\n\nImage search, Match the fastener Raphaël Bulle, François Der Hovsepian, Francisco Nicolás, Jean-Christophe Sick"
+  },
+  {
+    "objectID": "research.html#preprints",
+    "href": "research.html#preprints",
+    "title": "Research",
+    "section": "",
+    "text": "A penalized φ-FEM scheme for the Poisson Dirichlet problem Michel Duprez, Killian Vuillemot, Raphaël Bulle, Vanessa Lleras\nResidual-based a posteriori error estimates with boundary correction for Phi-FEM Roland Becker, Raphaël Bulle, Michel Duprez, Vanessa Lleras\nAn adaptive multimesh rational approximation scheme for the spectral fractional Laplacian Alex Bespalov, Raphaël Bulle | DOI: 10.48550/arXiv.2504.03408 | HAL"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "An a posteriori error estimator for the spectral fractional power of the Laplacian Raphaël Bulle, Olga Barrera, Stéphane P.A. Bordas, Franz Chouly, Jack S Hale | DOI: 10.1016/j.cma.2023.115943 | HAL\nHierarchical a posteriori error estimation of Bank-Weiser type in the FEniCS Project Raphaël Bulle, Jack S Hale, Alexei Lozinski, Stéphane P.A. Bordas, Franz Chouly | DOI: 10.1016/j.camwa.2022.11.009 | HAL\n\n\n\n\n\nThe Human Meniscus Behaves as a Functionally Graded Fractional Porous Medium under Confined Compression Conditions Raphaël Bulle, Gioacchino Alotta, Gregorio Marchiori, Matteo Berni, Nicola F. Lopomo, Stefano Zaffagnini, Stéphane P. A. Bordas, Olga Barrera | DOI: https://doi.org/10.3390/app11209405\n\n\n\n\n\nRemoving the saturation assumption in Bank-Weiser error estimator analysis in dimension three Raphaël Bulle, Franz Chouly, Jack S Hale, Alexei Lozinski | DOI: 10.1016/j.aml.2020.106429 | HAL"
+  },
+  {
+    "objectID": "research.html#softwares",
+    "href": "research.html#softwares",
+    "title": "Research",
+    "section": "",
+    "text": "phiFEM: a convenience package for using phiFEM with FEniCSx Raphael Bulle, Michel Duprez, Killian Vuillemot | DOI: 10.6084/m9.figshare.30373546.v1 | HAL\n\n\n\n\n\nFEniCS Error Estimation (FEniCS-EE) Raphaël Bulle, Jack Hale | DOI: 10.6084/m9.figshare.10732421 | HAL"
+  },
+  {
+    "objectID": "research.html#thesis",
+    "href": "research.html#thesis",
+    "title": "Research",
+    "section": "",
+    "text": "A posteriori error estimation for finite element approximations of fractional Laplacian problems and applications to poro-elasticity Raphaël Bulle"
+  },
+  {
+    "objectID": "research.html#reports",
+    "href": "research.html#reports",
+    "title": "Research",
+    "section": "",
+    "text": "Image search, Match the fastener Raphaël Bulle, François Der Hovsepian, Francisco Nicolás, Jean-Christophe Sick"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Raphaël Bulle",
+    "section": "",
+    "text": "Since October 2024, I am a post-doc researcher in the team-project MIMESIS at Centre Inria de l’Université de Lorraine, in Strasbourg 🥨 France.\nMy current work is about a posteriori error estimation and adaptive mesh refinement for the immersed boundary method called \\(\\varphi\\)-FEM. As a member of MIMESIS my work aims at providing numerical tools for biomecanics and biomedical simulations.\n\nMy research interests include:\n\n\n\n\nFEM a posteriori error estimation,\nimmersed boundary FEM,\nshape optimization,\n\n\n\n\ngradient reconstruction,\nfractional PDEs,\nbiomecanics."
+  },
+  {
+    "objectID": "supervision.html",
+    "href": "supervision.html",
+    "title": "Supervision",
+    "section": "",
+    "text": "Current\n\nLouis Ducongé. 6 months internship at MIMESIS (Centre Inria de l’Université de Lorraine, Strasbourg, FR) in 2025 followed by a PhD since October 2025.\nTopic: Shape optimization applied to surgical stents manufacturing.\nCo-supervised with Dr. Stéphane Cotin, Dr. Michel Duprez and Pr. Yannick Privat.\n\n\n\nFormer\n\nSarah Ait-Said. 6 months internship at Université Laval (Québec, QC) in 2024.\nTopic: Gradient reconstruction for multi-material problems.\nCo-supervised with Pr. Jean Deteix."
+  }
+]

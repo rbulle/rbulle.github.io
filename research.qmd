@@ -29,7 +29,7 @@ for d in docs:
         pubs.append({
             "title": d.get("title_s", "Untitled")[0],
             "year": d.get("producedDateY_i", ["?"]),
-            "link": d.get("uri_s", [""]),
+            "link": d.get("uri_s", ""),
             "authors": ", ".join(d.get("authFullName_s", [])),
             "type": d.get("docType_s", "unknown"),
             "doi": d.get("doiId_s", ""),
@@ -39,6 +39,7 @@ pubs.append({"title": "The Human Meniscus Behaves as a Functionally Graded Fract
              "year": 2021,
              "authors": "Raphaël Bulle, Gioacchino Alotta, Gregorio Marchiori, Matteo Berni, Nicola F. Lopomo, Stefano Zaffagnini, Stéphane P. A. Bordas, Olga Barrera",
              "type": "ART",
+             "link": "",
              "doi": "https://doi.org/10.3390/app11209405"})
 
 df = pd.DataFrame(pubs).sort_values("year", ascending=False)
@@ -57,8 +58,12 @@ for type_key, type_val in doctypes.items():
             out += f"  {row['authors']}"
             if row['doi']!="":
                 out += f" | \nDOI: [{row['doi']}]({row['doi']})"
-            if "" not in row["link"]:
-                out += f" | \n[HAL]({row['link']})\n\n"
+                if not row["link"]=="":
+                    out += f" | \n[HAL]({row['link']})\n\n"
+                else:
+                    out += "\n\n"
+            else:
+                out += "\n\n"
     else:
         for year in sorted(set(type_df["year"].tolist()), reverse=True):
             yr_df = type_df[type_df["year"] == year]
@@ -68,8 +73,12 @@ for type_key, type_val in doctypes.items():
                 out += f"  {row['authors']}"
                 if row['doi']!="":
                     out += f" | \nDOI: [{row['doi']}]({row['doi']})"
-                if "" not in row["link"]:
-                    out += f" | \n[HAL]({row['link']})\n\n"
+                    if not row["link"]=="":
+                        out += f" | \n[HAL]({row['link']})\n\n"
+                    else:
+                        out += "\n\n"
+                else:
+                    out += "\n\n"
 
 Markdown(out)
 ```

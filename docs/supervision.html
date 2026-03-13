@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-13">
+<meta name="dcterms.date" content="2026-03-04">
 
-<title>Raphaël Bulle</title>
+<title>Supervision</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,35 +59,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -266,7 +237,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -274,7 +245,7 @@ window.Quarto = {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./supervision.html"> 
+    <a class="nav-link active" href="./supervision.html" aria-current="page"> 
 <span class="menu-text">Supervision</span></a>
   </li>  
   <li class="nav-item">
@@ -330,7 +301,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Raphaël Bulle</h1>
+<h1 class="title">Supervision</h1>
 </div>
 
 
@@ -341,7 +312,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 13, 2026</p>
+      <p class="date">March 4, 2026</p>
     </div>
   </div>
   
@@ -353,41 +324,21 @@ window.Quarto = {
 </header>
 
 
-<p>Since October 2024, I am a post-doc researcher in the team-project <a href="&quot;https://mimesis.inria.fr&quot;">MIMESIS</a> at <a href="https://www.inria.fr/fr/centre-inria-universite-lorraine">Centre Inria de l’Université de Lorraine</a>, in Strasbourg 🥨 France.</p>
-<p>My current work is about <strong>a posteriori error estimation</strong> and <strong>adaptive mesh refinement</strong> for the <strong>immersed boundary method</strong> called <a href="https://epubs.siam.org/doi/10.1137/19m1248947" target="_blank"><span class="math inline">\(\varphi\)</span>-FEM</a>. As a member of MIMESIS my work aims at providing numerical tools for <strong>biomecanics and biomedical simulations</strong>.</p>
-<section id="my-research-interests-include" class="level5">
-<h5 class="anchored" data-anchor-id="my-research-interests-include">My research interests include:</h5>
-<div class="quarto-layout-panel" data-layout="[1,1]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<section id="current" class="level3">
+<h3 class="anchored" data-anchor-id="current">Current</h3>
 <ul>
-<li>FEM a posteriori error estimation,</li>
-<li>immersed boundary FEM,</li>
-<li>shape optimization,</li>
+<li><a href="https://iecl.univ-lorraine.fr/membre-iecl/duconge-louis/"><strong>Louis Ducongé</strong></a>. 6 months internship at MIMESIS (Centre Inria de l’Université de Lorraine, Strasbourg, FR) in 2025 followed by a PhD since October 2025.<br>
+<strong>Topic:</strong> <em>Shape optimization applied to surgical stents manufacturing.</em><br>
+Co-supervised with <a href="https://mimesis.inria.fr/members/stephane-cotin/">Dr.&nbsp;Stéphane Cotin</a>, <a href="https://mimesis.inria.fr/members/michel-duprez/">Dr.&nbsp;Michel Duprez</a> and <a href="https://yannick-privat.perso.math.cnrs.fr/">Pr. Yannick Privat</a>.</li>
 </ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+</section>
+<section id="former" class="level3">
+<h3 class="anchored" data-anchor-id="former">Former</h3>
 <ul>
-<li>gradient reconstruction,</li>
-<li>fractional PDEs,</li>
-<li>biomecanics.</li>
+<li><a href="https://www.linkedin.com/in/sarah-ait-said-831071206/"><strong>Sarah Ait-Said</strong></a>. 6 months internship at Université Laval (Québec, QC) in 2024.<br>
+<strong>Topic:</strong> <em>Gradient reconstruction for multi-material problems</em>.<br>
+Co-supervised with <a href="https://jean-deteix.fsg.ulaval.ca/">Pr. Jean Deteix</a>.</li>
 </ul>
-</div>
-</div>
-</div>
-<div class="quarto-layout-panel" data-layout="[-0.3,1,-0.3]" data-layout-halign="center">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 18.8%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 62.5%;justify-content: center;">
-<p><img src="images/rando_small_circled.png" class="img-fluid"></p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 18.8%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
 
 
 </section>

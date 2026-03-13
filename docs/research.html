@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-03-13">
 
-<title>Raphaël Bulle</title>
+<title>Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,35 +59,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -266,11 +237,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -330,7 +301,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Raphaël Bulle</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
@@ -353,44 +324,75 @@ window.Quarto = {
 </header>
 
 
-<p>Since October 2024, I am a post-doc researcher in the team-project <a href="&quot;https://mimesis.inria.fr&quot;">MIMESIS</a> at <a href="https://www.inria.fr/fr/centre-inria-universite-lorraine">Centre Inria de l’Université de Lorraine</a>, in Strasbourg 🥨 France.</p>
-<p>My current work is about <strong>a posteriori error estimation</strong> and <strong>adaptive mesh refinement</strong> for the <strong>immersed boundary method</strong> called <a href="https://epubs.siam.org/doi/10.1137/19m1248947" target="_blank"><span class="math inline">\(\varphi\)</span>-FEM</a>. As a member of MIMESIS my work aims at providing numerical tools for <strong>biomecanics and biomedical simulations</strong>.</p>
-<section id="my-research-interests-include" class="level5">
-<h5 class="anchored" data-anchor-id="my-research-interests-include">My research interests include:</h5>
-<div class="quarto-layout-panel" data-layout="[1,1]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="1bec7066" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="1">
+<section id="preprints" class="level2">
+<h2 class="anchored" data-anchor-id="preprints">✍️ Preprints</h2>
 <ul>
-<li>FEM a posteriori error estimation,</li>
-<li>immersed boundary FEM,</li>
-<li>shape optimization,</li>
+<li><p><em>A penalized φ-FEM scheme for the Poisson Dirichlet problem</em><br> Michel Duprez, Killian Vuillemot, Raphaël Bulle, Vanessa Lleras</p></li>
+<li><p><em>Residual-based a posteriori error estimates with boundary correction for Phi-FEM</em><br> Roland Becker, Raphaël Bulle, Michel Duprez, Vanessa Lleras</p></li>
+<li><p><em>An adaptive multimesh rational approximation scheme for the spectral fractional Laplacian</em><br> Alex Bespalov, Raphaël Bulle | DOI: <a href="10.48550/arXiv.2504.03408">10.48550/arXiv.2504.03408</a> | <a href="https://hal.science/hal-05031126v1">HAL</a></p></li>
 </ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<ul>
-<li>gradient reconstruction,</li>
-<li>fractional PDEs,</li>
-<li>biomecanics.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="quarto-layout-panel" data-layout="[-0.3,1,-0.3]" data-layout-halign="center">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 18.8%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 62.5%;justify-content: center;">
-<p><img src="images/rando_small_circled.png" class="img-fluid"></p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 18.8%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
-
-
 </section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">🗞️ Publications</h2>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section">2023</h3>
+<ul>
+<li><p><em>An a posteriori error estimator for the spectral fractional power of the Laplacian</em><br> Raphaël Bulle, Olga Barrera, Stéphane P.A. Bordas, Franz Chouly, Jack S Hale | DOI: <a href="10.1016/j.cma.2023.115943">10.1016/j.cma.2023.115943</a> | <a href="https://hal.science/hal-03567028v1">HAL</a></p></li>
+<li><p><em>Hierarchical a posteriori error estimation of Bank-Weiser type in the FEniCS Project</em><br> Raphaël Bulle, Jack S Hale, Alexei Lozinski, Stéphane P.A. Bordas, Franz Chouly | DOI: <a href="10.1016/j.camwa.2022.11.009">10.1016/j.camwa.2022.11.009</a> | <a href="https://hal.science/hal-03137595v1">HAL</a></p></li>
+</ul>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1">2021</h3>
+<ul>
+<li><em>The Human Meniscus Behaves as a Functionally Graded Fractional Porous Medium under Confined Compression Conditions</em><br> Raphaël Bulle, Gioacchino Alotta, Gregorio Marchiori, Matteo Berni, Nicola F. Lopomo, Stefano Zaffagnini, Stéphane P. A. Bordas, Olga Barrera | DOI: <a href="https://doi.org/10.3390/app11209405">https://doi.org/10.3390/app11209405</a></li>
+</ul>
+</section>
+<section id="section-2" class="level3">
+<h3 class="anchored" data-anchor-id="section-2">2020</h3>
+<ul>
+<li><em>Removing the saturation assumption in Bank-Weiser error estimator analysis in dimension three</em><br> Raphaël Bulle, Franz Chouly, Jack S Hale, Alexei Lozinski | DOI: <a href="10.1016/j.aml.2020.106429">10.1016/j.aml.2020.106429</a> | <a href="https://hal.science/hal-02482235v2">HAL</a></li>
+</ul>
+</section>
+</section>
+<section id="softwares" class="level2">
+<h2 class="anchored" data-anchor-id="softwares">💻 Softwares</h2>
+<section id="section-3" class="level3">
+<h3 class="anchored" data-anchor-id="section-3">2025</h3>
+<ul>
+<li><em>phiFEM: a convenience package for using phiFEM with FEniCSx</em><br> Raphael Bulle, Michel Duprez, Killian Vuillemot | DOI: <a href="10.6084/m9.figshare.30373546.v1">10.6084/m9.figshare.30373546.v1</a> | <a href="https://hal.science/hal-05325727v1">HAL</a></li>
+</ul>
+</section>
+<section id="section-4" class="level3">
+<h3 class="anchored" data-anchor-id="section-4">2021</h3>
+<ul>
+<li><em>FEniCS Error Estimation (FEniCS-EE)</em><br> Raphaël Bulle, Jack Hale | DOI: <a href="10.6084/m9.figshare.10732421">10.6084/m9.figshare.10732421</a> | <a href="https://hal.science/hal-05535054v1">HAL</a></li>
+</ul>
+</section>
+</section>
+<section id="thesis" class="level2">
+<h2 class="anchored" data-anchor-id="thesis">🎓 Thesis</h2>
+<section id="section-5" class="level3">
+<h3 class="anchored" data-anchor-id="section-5">2022</h3>
+<ul>
+<li><em>A posteriori error estimation for finite element approximations of fractional Laplacian problems and applications to poro-elasticity</em><br> Raphaël Bulle</li>
+</ul>
+</section>
+</section>
+<section id="reports" class="level2">
+<h2 class="anchored" data-anchor-id="reports">📰 Reports</h2>
+<section id="section-6" class="level3">
+<h3 class="anchored" data-anchor-id="section-6">2019</h3>
+<ul>
+<li><em>Image search, Match the fastener</em><br> Raphaël Bulle, François Der Hovsepian, Francisco Nicolás, Jean-Christophe Sick</li>
+</ul>
+</section>
+</section>
+</div>
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
