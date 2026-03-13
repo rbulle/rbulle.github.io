@@ -54,22 +54,22 @@ for type_key, type_val in doctypes.items():
     if type_key=="UNDEFINED":
         for _, row in type_df.iterrows():
             out += f"- *{row['title']}*</br>"
-            out += f"  {row['authors']} | \n"
+            out += f"  {row['authors']}"
             if row['doi']!="":
-                out += f"DOI: [{row['doi']}]({row['doi']}) | \n"
+                out += f" | \nDOI: [{row['doi']}]({row['doi']})"
             if "" not in row["link"]:
-                out += f"[HAL]({row['link']})\n\n"
+                out += f" | \n[HAL]({row['link']})\n\n"
     else:
         for year in sorted(set(type_df["year"].tolist()), reverse=True):
             yr_df = type_df[type_df["year"] == year]
             out += f"### {year}\n\n"
             for _, row in yr_df.iterrows():
                 out += f"- *{row['title']}*</br>"
-                out += f"  {row['authors']} | \n"
+                out += f"  {row['authors']}"
                 if row['doi']!="":
-                    out += f"DOI: [{row['doi']}]({row['doi']}) | \n"
+                    out += f" | \nDOI: [{row['doi']}]({row['doi']})"
                 if "" not in row["link"]:
-                    out += f"[HAL]({row['link']})\n\n"
+                    out += f" | \n[HAL]({row['link']})\n\n"
 
 Markdown(out)
 ```
