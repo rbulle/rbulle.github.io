@@ -35,6 +35,12 @@ for d in docs:
             "doi": d.get("doiId_s", ""),
         })
 
+pubs.append({"title": "The Human Meniscus Behaves as a Functionally Graded Fractional Porous Medium under Confined Compression Conditions",
+             "year": 2021,
+             "authors": ["Raphaël Bulle", "Gioacchino Alotta", "Gregorio Marchiori", "Matteo Berni", "Nicola F. Lopomo", "Stefano Zaffagnini", "Stéphane P. A. Bordas", "Olga Barrera"],
+             "type": "ART",
+             "doi": "https://doi.org/10.3390/app11209405"})
+
 df = pd.DataFrame(pubs).sort_values("year", ascending=False)
 year_list = df["year"].tolist()
 df.head()
