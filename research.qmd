@@ -57,7 +57,8 @@ for type_key, type_val in doctypes.items():
             out += f"  {row['authors']} | \n"
             if row['doi']!="":
                 out += f"DOI: [{row['doi']}]({row['doi']}) | \n"
-            out += f"[HAL]({row['link']})\n\n"
+            if "" not in row["link"]:
+                out += f"[HAL]({row['link']})\n\n"
     else:
         for year in sorted(set(type_df["year"].tolist()), reverse=True):
             yr_df = type_df[type_df["year"] == year]
@@ -67,7 +68,8 @@ for type_key, type_val in doctypes.items():
                 out += f"  {row['authors']} | \n"
                 if row['doi']!="":
                     out += f"DOI: [{row['doi']}]({row['doi']}) | \n"
-                out += f"[HAL]({row['link']})\n\n"
+                if "" not in row["link"]:
+                    out += f"[HAL]({row['link']})\n\n"
 
 Markdown(out)
 ```
