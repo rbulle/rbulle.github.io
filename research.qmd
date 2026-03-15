@@ -5,8 +5,9 @@ title: "Research"
 ```{python}
 #| echo: false
 
-import requests
+import json
 import pandas as pd
+import requests
 
 HAL_ID = "raphael-bulle"
 URL = f"https://api.archives-ouvertes.fr/search/?q=authIdHal_s:{HAL_ID}&wt=json&fl=title_s,authFullName_s,producedDateY_i,uri_s,docType_s,doiId_s"
@@ -35,12 +36,13 @@ for d in docs:
             "doi": d.get("doiId_s", ""),
         })
 
-pubs.append({"title": "The Human Meniscus Behaves as a Functionally Graded Fractional Porous Medium under Confined Compression Conditions",
-             "year": 2021,
-             "authors": "Raphaël Bulle, Gioacchino Alotta, Gregorio Marchiori, Matteo Berni, Nicola F. Lopomo, Stefano Zaffagnini, Stéphane P. A. Bordas, Olga Barrera",
-             "type": "ART",
-             "link": "",
-             "doi": "https://doi.org/10.3390/app11209405"})
+
+# Manually add publications absent from HAL
+with open("publications.json") as json_file:
+    json_data = json.load(json_file)
+
+for data in json_data:
+    pubs.append(json_data[data])
 
 df = pd.DataFrame(pubs).sort_values("year", ascending=False)
 year_list = df["year"].tolist()
