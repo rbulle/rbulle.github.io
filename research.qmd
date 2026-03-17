@@ -36,7 +36,6 @@ for d in docs:
             "doi": d.get("doiId_s", ""),
         })
 
-
 # Manually add publications absent from HAL
 with open("publications.json") as json_file:
     json_data = json.load(json_file)
@@ -65,6 +64,10 @@ for type_key, type_val in doctypes.items():
                 else:
                     out += "\n\n"
             else:
+                if not row["link"]=="":
+                    out += f" | \n[HAL]({row['link']})\n\n"
+                else:
+                    out += "\n\n"
                 out += "\n\n"
     else:
         for year in sorted(set(type_df["year"].tolist()), reverse=True):
