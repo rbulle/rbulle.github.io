@@ -4,21 +4,21 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "A convenience Python package for using (any of) the \\(\\varphi\\)-FEM scheme(s) (see e.g. this study or this chapter) in the FEniCSx high performance finite element computing plateform.\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nAuthors: R. B., M. Duprez, K. Vuillemot\nDeveloper: R. B.\n\n\n\n\nDevelopment: ongoing 💻\nMaintenance: maintained ✅\n\n\n\n\n\n\nExample of pieces of code using phiFEM:\n\ngithub.com/JD26/FormOpt,\ngithub.com/PhiFEM/publication_residual-estimates_fenicsx\n\n\n\n\nAn implementation of the Bank-Weiser a posteriori error estimator (introduced in this study) in the FEniCSx high performance finite element computing plateform. For a detailed description of its implementation see this study.\n⚠️ This software is currently unmaintained and is not up-to-date with dolfinx latest version (I might update it in the future if I find the time).\n\n\n\n \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nAuthors: R. B., J. S. Hale\nDevelopers: R. B., J. S. Hale\n\n\n\n\nDevelopment: completed ✅\nMaintenance: unmaintained ❌"
+    "text": "A convenience Python package for using (any of) the \\(\\varphi\\)-FEM scheme(s) (see e.g. this study or this chapter) in the FEniCSx high performance finite element computing plateform.\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nAuthors: R. B., M. Duprez, K. Vuillemot\nDeveloper: R. B.\n\n\n\n\nDevelopment: ongoing 💻\nMaintenance: maintained ✅\n\n\n\n\n\nExample of pieces of code using phiFEM:\n\ngithub.com/JD26/FormOpt,\ngithub.com/PhiFEM/publication_residual-estimates_fenicsx"
   },
   {
     "objectID": "software.html#phifem",
     "href": "software.html#phifem",
     "title": "Software",
     "section": "",
-    "text": "A convenience Python package for using (any of) the \\(\\varphi\\)-FEM scheme(s) (see e.g. this study or this chapter) in the FEniCSx high performance finite element computing plateform.\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nAuthors: R. B., M. Duprez, K. Vuillemot\nDeveloper: R. B.\n\n\n\n\nDevelopment: ongoing 💻\nMaintenance: maintained ✅\n\n\n\n\n\n\nExample of pieces of code using phiFEM:\n\ngithub.com/JD26/FormOpt,\ngithub.com/PhiFEM/publication_residual-estimates_fenicsx\n\n\n\n\nAn implementation of the Bank-Weiser a posteriori error estimator (introduced in this study) in the FEniCSx high performance finite element computing plateform. For a detailed description of its implementation see this study.\n⚠️ This software is currently unmaintained and is not up-to-date with dolfinx latest version (I might update it in the future if I find the time).\n\n\n\n \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nAuthors: R. B., J. S. Hale\nDevelopers: R. B., J. S. Hale\n\n\n\n\nDevelopment: completed ✅\nMaintenance: unmaintained ❌"
+    "text": "A convenience Python package for using (any of) the \\(\\varphi\\)-FEM scheme(s) (see e.g. this study or this chapter) in the FEniCSx high performance finite element computing plateform.\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nAuthors: R. B., M. Duprez, K. Vuillemot\nDeveloper: R. B.\n\n\n\n\nDevelopment: ongoing 💻\nMaintenance: maintained ✅\n\n\n\n\n\nExample of pieces of code using phiFEM:\n\ngithub.com/JD26/FormOpt,\ngithub.com/PhiFEM/publication_residual-estimates_fenicsx"
   },
   {
     "objectID": "software.html#fenicsx-error-estimation",
     "href": "software.html#fenicsx-error-estimation",
     "title": "Software",
-    "section": "",
-    "text": "An implementation of the Bank-Weiser a posteriori error estimator (introduced in this study) in the FEniCSx high performance finite element computing plateform. For a detailed description of its implementation see this study.\n⚠️ This software is currently unmaintained and is not up-to-date with dolfinx latest version (I might update it in the future if I find the time).\n\n\n\n \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nAuthors: R. B., J. S. Hale\nDevelopers: R. B., J. S. Hale\n\n\n\n\nDevelopment: completed ✅\nMaintenance: unmaintained ❌"
+    "section": "fenicsx-error-estimation",
+    "text": "fenicsx-error-estimation\nAn implementation of the Bank-Weiser a posteriori error estimator (introduced in this study) in the FEniCSx high performance finite element computing plateform. For a detailed description of its implementation see this study.\n⚠️ This software is currently unmaintained and is not up-to-date with dolfinx latest version (I might update it in the future if I find the time).\n\n\n\n \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nAuthors: R. B., J. S. Hale\nDevelopers: R. B., J. S. Hale\n\n\n\n\nDevelopment: completed ✅\nMaintenance: unmaintained ❌"
   },
   {
     "objectID": "supervision.html",

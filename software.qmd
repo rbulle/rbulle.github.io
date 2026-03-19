@@ -28,6 +28,7 @@ A convenience Python package for using (any of) the $\varphi$-FEM scheme(s) (see
 
 :::
 
+
 :::{layout="[1,1]"}
 
 :::{style=""}
@@ -45,8 +46,6 @@ A convenience Python package for using (any of) the $\varphi$-FEM scheme(s) (see
 :::
 
 :::
-
-::: {}
 
 > Example of pieces of code using `phiFEM`:
 >
@@ -73,6 +72,7 @@ An implementation of the Bank-Weiser a posteriori error estimator (introduced in
 :::
 
 :::
+
 
 :::{layout="[1,1]"}
 
