@@ -10,13 +10,13 @@ A convenience Python package for using (any of) the $\varphi$-FEM scheme(s) (see
 
 :::{style=""}
 
-[{{< iconify mdi:github size=2x title="https://github.com/PhiFEM/phiFEM" label="Hyperlink to phiFEM github page.>}}](https://github.com/PhiFEM/phiFEM)
+[{{< iconify mdi:github size=2x title="https://github.com/PhiFEM/phiFEM" label="Hyperlink to phiFEM github page." >}}](https://github.com/PhiFEM/phiFEM)
 
 :::
 
 :::{style=""}
 
-[{{< iconify file-icons:pypi size=2x title="https://pypi.org/project/phiFEM/" label="Hyperlink to phiFEM pypi page.>}}](https://pypi.org/project/phiFEM/)
+[{{< iconify file-icons:pypi size=2x title="https://pypi.org/project/phiFEM/" label="Hyperlink to phiFEM pypi page." >}}](https://pypi.org/project/phiFEM/)
 
 :::
 
