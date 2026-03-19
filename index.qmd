@@ -2,35 +2,39 @@
 title: "Raphaël Bulle"
 ---
 
+::: {layout="[2,1]"}
+
+::: {style=""}
+
 Since October 2024, I am a post-doc researcher in the team-project [MIMESIS]("https://mimesis.inria.fr") at [Centre Inria de l'Université de Lorraine](https://www.inria.fr/fr/centre-inria-universite-lorraine), in Strasbourg 🥨 France.  
 
 My current work is about **a posteriori error estimation** and **adaptive mesh refinement** for the **immersed boundary method** called <a href="https://epubs.siam.org/doi/10.1137/19m1248947" target=_blank>$\varphi$-FEM</a>.
 As a member of MIMESIS my work aims at providing numerical tools for **biomecanics and biomedical simulations**.  
 
-##### My research interests include:
-
-::: {layout="[1,1]"}
+:::
 
 ::: {style=""}
 
-- FEM a posteriori error estimation,
-- immersed boundary FEM,
-- shape optimization,
-
-:::
-
-:::{style=""}
-
-- gradient reconstruction,
-- fractional PDEs,
-- biomecanics.
+![](images/rando_small_circled.png){width=300}
 
 :::
 
 :::
 
-::: {layout="[-0.3,1,-0.3]" layout-halign="center"}
+#### My research interests include:
 
-![](images/rando_small_circled.png)
+::: {layout="[[-0.1,1,1,1,-0.1],[-0.1,1,1,1,-0.1]]"}
+
+![FEM a posteriori error estimation](images/estimator_resized.png)
+
+![Immersed boundary FEM](images/phifem_resized.png)
+
+![Fractional PDEs](images/fractional_solution_resized.png)
+
+![Shape optimization](images/shape_opti_resized.png)
+
+![Gradient reconstruction](images/grad_reconstruction_resized.png)
+
+![Biomecanics](images/meniscus_resized.png)
 
 :::

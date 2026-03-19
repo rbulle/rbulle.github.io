@@ -1,0 +1,93 @@
+---
+title: "Software"
+---
+
+## [`phiFEM`](https://github.com/PhiFEM/phiFEM)
+
+A convenience Python package for using (any of) the $\varphi$-FEM scheme(s) (see e.g. [this study](https://hal.science/hal-02521111/document) or [this chapter](https://hal.science/hal-03372733/document)) in the [FEniCSx](https://fenicsproject.org/) high performance finite element computing plateform.  
+
+:::{layout="[-1,1,1,1,-1]"}
+
+:::{style=""}
+
+[{{< iconify mdi:github size=2x >}}](https://github.com/PhiFEM/phiFEM)
+
+:::
+
+:::{style=""}
+
+[{{< iconify file-icons:pypi size=2x >}}](https://pypi.org/project/phiFEM/)
+
+:::
+
+:::{style=""}
+
+[{{< iconify simple-icons:doi size=2x >}}](https://doi.org/10.6084/m9.figshare.30373546)
+
+:::
+
+:::
+
+:::{layout="[1,1]"}
+
+:::{style=""}
+
+- **Authors:** R. B., [M. Duprez](https://michelduprez.fr), [K. Vuillemot](https://kvuillemot.github.io/)
+- **Developer:** R. B.
+
+:::
+
+:::{style=""}
+
+- **Development:** ongoing 💻
+- **Maintenance:** maintained ✅
+
+:::
+
+:::
+
+::: {}
+
+> Example of pieces of code using `phiFEM`:
+>
+> - [github.com/JD26/FormOpt](https://github.com/JD26/FormOpt),
+> - [github.com/PhiFEM/publication_residual-estimates_fenicsx](https://github.com/PhiFEM/publication_residual-estimates_fenicsx)
+
+## [`fenicsx-error-estimation`](https://github.com/jhale/fenicsx-error-estimation)
+
+An implementation of the Bank-Weiser a posteriori error estimator (introduced in [this study](https://www.jstor.org/stable/2007953)) in the [FEniCSx](https://fenicsproject.org/) high performance finite element computing plateform. For a detailed description of its implementation see [this study](https://www.sciencedirect.com/science/article/abs/pii/S0898122122004722).  
+⚠️ This software is currently unmaintained and is not up-to-date with [dolfinx](https://github.com/FEniCS/dolfinx) latest version (I might update it in the future if I find the time).
+
+:::{layout="[-1.5,1,1,-1]"}
+
+:::{style=""}
+
+[{{< iconify mdi:github size=2x >}}](https://github.com/jhale/fenicsx-error-estimation)
+
+:::
+
+:::{style=""}
+
+[{{< iconify simple-icons:doi size=2x >}}](https://doi.org/10.6084/m9.figshare.10732421)
+
+:::
+
+:::
+
+:::{layout="[1,1]"}
+
+:::{style=""}
+
+- **Authors:** R. B., [J. S. Hale](https://www.jackhale.co.uk/)
+- **Developers:** R. B., [J. S. Hale](https://www.jackhale.co.uk/)
+
+:::
+
+:::{style=""}
+
+- **Development:** completed ✅
+- **Maintenance:** unmaintained ❌
+
+:::
+
+:::

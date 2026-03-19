@@ -15,6 +15,7 @@ website:
       - href: index.qmd
         text: Home
       - research.qmd
+      - software.qmd
       - supervision.qmd
       - teaching.qmd
       - href: /documents/cv_en.pdf
