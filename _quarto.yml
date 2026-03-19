@@ -23,15 +23,15 @@ website:
       - href: /documents/cv_fr.pdf
         text: "CV (fr)"
     right:
-      - text: "{{< iconify simple-icons:researchgate >}}"
+      - text: "{{< iconify simple-icons:researchgate title='https://www.researchgate.net/profile/Raphael-Bulle' >}}"
         href: https://www.researchgate.net/profile/Raphael-Bulle
-      - text: "{{< iconify la:orcid >}}"
+      - text: "{{< iconify la:orcid title='https://orcid.org/0000-0002-6239-125X' >}}"
         href: https://orcid.org/0000-0002-6239-125X
-      - text: "{{< iconify line-md:github >}}"
+      - text: "{{< iconify line-md:github title='https://github.com/rbulle' >}}"
         href:  https://github.com/rbulle
-      - text: "{{< iconify line-md:mastodon >}}"
+      - text: "{{< iconify line-md:mastodon title='https://mathstodon.xyz/@rbulle' >}}"
         href: https://mathstodon.xyz/@rbulle
-      - text: "{{< iconify line-md:linkedin >}}"
+      - text: "{{< iconify line-md:linkedin title='https://www.linkedin.com/in/raphael-bulle-60499a23a/' >}}"
         href: https://www.linkedin.com/in/raphael-bulle-60499a23a/
 
 format:
