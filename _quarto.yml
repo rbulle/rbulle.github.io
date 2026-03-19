@@ -23,15 +23,15 @@ website:
       - href: /documents/cv_fr.pdf
         text: "CV (fr)"
     right:
-      - text: "{{< iconify simple-icons:researchgate title='https://www.researchgate.net/profile/Raphael-Bulle' label='My ResearchGate page hyperlink.'>}}"
+      - text: "{{< iconify simple-icons:researchgate title='https://www.researchgate.net/profile/Raphael-Bulle' label='My ResearchGate page hyperlink.' >}}"
         href: https://www.researchgate.net/profile/Raphael-Bulle
-      - text: "{{< iconify la:orcid title='https://orcid.org/0000-0002-6239-125X' label='My Orcid page hyperlink.'>}}"
+      - text: "{{< iconify la:orcid title='https://orcid.org/0000-0002-6239-125X' label='My Orcid page hyperlink.' >}}"
         href: https://orcid.org/0000-0002-6239-125X
       - text: "{{< iconify line-md:github title='https://github.com/rbulle' label='My github page hyperlink.' >}}"
         href:  https://github.com/rbulle
-      - text: "{{< iconify line-md:mastodon title='https://mathstodon.xyz/@rbulle' label='My Mastodon page hyperlink.'>}}"
+      - text: "{{< iconify line-md:mastodon title='https://mathstodon.xyz/@rbulle' label='My Mastodon page hyperlink.' >}}"
         href: https://mathstodon.xyz/@rbulle
-      - text: "{{< iconify line-md:linkedin title='https://www.linkedin.com/in/raphael-bulle-60499a23a/' label='My LinkedIn page hyperlink.'>}}"
+      - text: "{{< iconify line-md:linkedin title='https://www.linkedin.com/in/raphael-bulle-60499a23a/' label='My LinkedIn page hyperlink.' >}}"
         href: https://www.linkedin.com/in/raphael-bulle-60499a23a/
 
 format:
