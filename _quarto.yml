@@ -20,8 +20,10 @@ website:
       - teaching.qmd
       - href: /documents/cv_en.pdf
         text: "CV (en)"
+        target: _blank
       - href: /documents/cv_fr.pdf
         text: "CV (fr)"
+        target: _blank
     right:
       - text: "{{< iconify simple-icons:researchgate title='https://www.researchgate.net/profile/Raphael-Bulle' label='My ResearchGate page hyperlink.' >}}"
         href: https://www.researchgate.net/profile/Raphael-Bulle
