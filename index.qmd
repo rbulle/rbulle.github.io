@@ -2,7 +2,7 @@
 title: "Raphaël Bulle"
 ---
 
-::: {layout="[2,1]"}
+::: {layout="[1.5,1]" layout-valign="center"}
 
 ::: {style=""}
 
@@ -15,7 +15,7 @@ As a member of MIMESIS my work aims at providing numerical tools for **biomecani
 
 ::: {style=""}
 
-![](images/rando_small_circled.png){width=300}
+![](images/source_lison_circle.png){width=400}
 
 :::
 
@@ -36,5 +36,17 @@ As a member of MIMESIS my work aims at providing numerical tools for **biomecani
 ![Gradient reconstruction](images/grad_reconstruction_resized.png)
 
 ![Biomecanics](images/meniscus_resized.png)
+
+:::
+
+#### Generative AI disclaimer
+
+
+::: {layout="[1,3]" layout-valign="center"}
+
+![](images/image-572.png){width=400}
+
+I am strongly opposed to the use of generative AI, therefore all the work I produce by myself (such as this website) is generative AI-free.
+
 
 :::
