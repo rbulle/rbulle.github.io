@@ -58,7 +58,7 @@ for type_key, type_val in doctypes.items():
             out += f"- *{row['title']}*</br>"
             out += f"  {row['authors']}"
             if row['doi']!="":
-                out += f" | \nDOI: [{row['doi']}]({row['doi']})"
+                out += f" | \nDOI: [{row['doi']}](https://doi.org/{row['doi']})"
                 if not row["link"]=="":
                     out += f" | \n[HAL]({row['link']})\n\n"
                 else:
@@ -77,7 +77,7 @@ for type_key, type_val in doctypes.items():
                 out += f"- *{row['title']}*</br>"
                 out += f"  {row['authors']}"
                 if row['doi']!="":
-                    out += f" | \nDOI: [{row['doi']}]({row['doi']})"
+                    out += f" | \nDOI: [{row['doi']}](https://doi.org/{row['doi']})"
                     if not row["link"]=="":
                         out += f" | \n[HAL]({row['link']})\n\n"
                     else:
