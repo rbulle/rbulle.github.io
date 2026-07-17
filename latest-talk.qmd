@@ -1,0 +1,9 @@
+---
+title: "Latest talk"
+---
+
+## CMAM 2026
+
+```{=html}
+<iframe width="100%" height="400px" src="documents/slides_CMAM_2026/main.html"  title="CMAM 2026" allowfullscreen></iframe>
+```
