@@ -13,3 +13,6 @@ title: "Supervision"
 - [**Sarah Ait-Said**](https://www.linkedin.com/in/sarah-ait-said-831071206/). 6 months internship at Université Laval (Québec, QC) in 2024.  
   **Topic:** *Gradient reconstruction for multi-material problems*.  
   Co-supervised with [Pr. Jean Deteix](https://jean-deteix.fsg.ulaval.ca/).
+
+
+![](documents/slides_CMAM_2026/main.html){width="100%" height="600px" background-iframe="true"}
