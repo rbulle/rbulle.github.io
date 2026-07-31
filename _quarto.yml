@@ -14,7 +14,6 @@ website:
       - software.qmd
       - supervision.qmd
       - teaching.qmd
-      - latest-talk.qmd
       - href: /documents/cv_en.pdf
         text: "CV (en)"
         target: _blank
